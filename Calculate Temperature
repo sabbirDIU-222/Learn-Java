@@ -1,0 +1,35 @@
+
+package hello;
+
+import java.util.Scanner;
+
+
+public class TemPo {
+    public static void main(String[] args)
+    {
+      Scanner input = new Scanner(System.in);
+        
+        double celcius,faren;
+         
+        System.out.print("enter today's tempareture celcius :");
+        celcius = input.nextDouble();
+        
+        
+        faren = 1.8 * celcius + 32;              // this is the theory or law to calculate farenhight when i know the celcius 
+        System.out.println("tempareture in farenhight : "+faren);
+        
+        
+        
+        System.out.print("today temparturer in farenhight :");
+        faren = input.nextDouble();
+        
+        
+        
+        celcius = .05 * faren - 32;      
+        System.out.println("temparturer in calcius : "+celcius);
+        
+       
+        
+    }
+    
+}
