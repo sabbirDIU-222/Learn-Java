@@ -1,0 +1,41 @@
+
+package hello;
+
+import java.util.Scanner;
+
+
+public class PalindromeNumber{
+    public static void main(String[] args)
+    {
+      
+        int num;
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("take any number : ");
+        num = input.nextInt();
+        
+        
+        int temp,reverse=0,r;
+        temp=num;
+        
+        while(temp!=0)
+        {
+             r = temp%10;
+             reverse = reverse*10+r;
+             temp=temp/10;     
+        }
+        System.out.println("the reverse of this number is : " + reverse);
+        
+        if(reverse==num)                                                   // ThiS Program is Same to REVERSE any numbe
+         
+            System.out.println("Palindrome NUMBER! HURRAH");                  // just check whatever the REVERSE number is as same as the number we input
+        }
+        else                                                                  // if match then it is palindrome 
+        {
+            System.out.println("OPPS! NOt Palindrome");                       // if don't match it will be not a palindrome                      
+        }
+        
+        
+        
+    }
+}
