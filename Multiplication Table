@@ -1,0 +1,30 @@
+
+package hello;
+
+import java.util.Scanner;
+
+public class SumNumber {
+    public static void main(String[] args) {
+     
+        int number,i,resut,m,j;
+        
+        Scanner ino = new Scanner(System.in); // take number program
+        
+        System.out.print("take your initial number : ");
+        number = ino.nextInt();
+        
+        System.out.print("take your final number : ");
+        m = ino.nextInt();
+        
+        for(i = number; i<=m;i++)
+        {
+            for(j=1;j<=10;j++)
+            {
+                System.out.println(i+"X"+j+" = " + i*j);
+            }
+            System.out.println(" ");
+        }
+     
+      
+    }
+}
