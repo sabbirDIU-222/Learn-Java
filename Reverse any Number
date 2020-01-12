@@ -1,0 +1,33 @@
+
+package hello;
+
+import java.util.Scanner;
+
+
+public class ReverseAnyNumber {
+    public static void main(String[] args)
+    {
+      
+        int num;
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("take any number : ");
+        num = input.nextInt();
+        
+        
+        int temp,reverse=0,r;
+        temp=num;
+        
+        while(temp!=0)
+        {
+             r = temp%10;                    //get reminder
+             reverse = reverse*10+r;           //it's the theory ! remeber it always 
+             temp=temp/10;                         // update the variable of number
+        
+        }
+        System.out.println("sum of each digit " + reverse);
+       
+        
+        
+    }
+}
