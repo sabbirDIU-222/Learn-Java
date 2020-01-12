@@ -1,0 +1,34 @@
+
+package hello;
+
+import java.util.Scanner;
+
+
+public class DigitFinding {
+    public static void main(String[] args)
+    {
+      
+        int num;
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("take any number : ");
+        num = input.nextInt();
+        
+        
+        int temp,sum=0,r;
+        temp=num;
+        
+        while(temp!=0)
+        {
+             r = temp%10;   // we modulus by 10 and get the reminder as the digit of my num
+             sum = sum+r;   // we sum the digit
+             
+             temp=temp/10; //and we update the number 
+        
+        }
+        System.out.println("sum of each digit " + sum);
+       
+        
+        
+    }
+}
