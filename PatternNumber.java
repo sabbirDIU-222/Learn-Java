@@ -13,9 +13,9 @@ public class PatternNumber {
         System.out.print("Take any number : ");
         num = input.nextInt();
         
-        for(int row = 1; row<=num; row++)
+        for(int row = 1; row<=num; row++)        //outer loop
         {
-            for(int colum = 1 ; colum <= row; colum++)
+            for(int colum = 1 ; colum <= row; colum++)    //inner loop
             {
                 System.out.print(" "+colum);
             }
