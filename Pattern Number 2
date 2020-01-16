@@ -1,0 +1,37 @@
+
+package hello;
+
+import java.util.Scanner;
+
+
+public class PatternNumber {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        int num;
+        
+        System.out.print("Take any number : ");
+        num = input.nextInt();
+        
+        for(int row = num; row >=1; row--)
+        {
+            for(int colum = 1 ; colum <= row; colum++)
+            {
+                System.out.print(" "+colum);
+            }
+           System.out.println();
+        }
+       
+    }
+}
+
+
+output: 
+
+Take any number : 5
+ 1 2 3 4 5
+ 1 2 3 4
+ 1 2 3
+ 1 2
+ 1
+BUILD SUCCESSFUL (total time: 3 seconds)
