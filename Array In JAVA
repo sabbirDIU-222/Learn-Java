@@ -1,0 +1,38 @@
+*** 
+      sometimes we need to know the length of any array what is dynamically initialized 
+                                                                                         ***
+                                                                                         
+                                                                                         
+                                                                                         
+    public class ArrayInJava {
+    public static void main(String[] args) {
+ 
+           int[] number = {1,23,34,5,4,3,2,2,323};
+           
+           System.out.println("the length of this array is : " + number.length);
+  
+    }
+}         
+
+
+
+
+
+
+        *** the                 number.length        extention is help us to find the length of any array ***
+        
+        
+        we can also initialized the array with an object , becouse we know that an array is an object of dynamically
+        generated class -----------
+        
+        
+        
+        public class PatternNumber {
+    public static void main(String[] args) {
+ 
+       ***    int[] number = new int[5]; ***
+    
+           System.out.println("the length of this array is : " + number.length);
+  
+    }
+}
