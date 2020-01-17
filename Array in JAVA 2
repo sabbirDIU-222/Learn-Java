@@ -1,0 +1,61 @@
+
+package hello;
+
+import java.util.Scanner;
+
+
+
+
+public class ArrayInJava {
+
+    public static void main(String[] args) {
+    
+        double sum = 0;
+        double[] number = new double[5];
+       
+        Scanner input = new Scanner(System.in);
+       
+        System.out.print("take your number : ");
+        for(int i = 0; i<number.length;i++)
+        {
+           number[i] = input.nextDouble();
+           
+        }
+       
+       for(int i=0;i<number.length;i++)
+       {
+           sum = sum + number[i];
+       }
+       
+       double avg = sum/number.length;
+       
+        System.out.println("the sum of all index you input : " + sum);
+        System.out.println("the average of all index you input : " + avg);
+          
+       
+    }
+}
+
+
+
+
+
+ ********** output **************
+
+
+take your number : 10 20 33 44 22
+the sum of all index you input : 129.0
+the average of all index you input : 25.8
+
+BUILD SUCCESSFUL (total time: 8 seconds)
+
+
+
+
+
+
+
+
+
+
+
