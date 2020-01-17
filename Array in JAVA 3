@@ -1,0 +1,81 @@
+Array in java 2 + logic of find max and min value of array
+
+
+
+
+package hello;
+
+import java.util.Scanner;
+
+
+
+
+public class PatternNumber {
+    public static void main(String[] args) {
+        double sum = 0;
+        double[] number = new double[5];
+       
+       Scanner input = new Scanner(System.in);
+       
+        System.out.print("take your number : ");
+       for(int i = 0; i<number.length;i++)
+       {
+           number[i] = input.nextDouble();
+           
+       }
+       
+       for(int i=0;i<number.length;i++)
+       {
+           sum = sum + number[i];
+       }
+       
+       double avg = sum/number.length;
+       
+        System.out.println("the sum of all index you input : " + sum);
+        System.out.println("the average of all index you input : " + avg);
+        
+        
+        // if we need to find maximum and minimum  value in array 
+        // we have a logic to build up this
+        
+        double max = number[0];
+        double min = number[0];
+        
+        for(int i = 1; i< number.length ; i++)
+        {
+            if(max < number[i])
+            {
+                max = number[i];
+            }
+            
+            if(min > number[i])
+            {
+                min = number[i];
+                
+            }
+        }
+        
+        System.out.println("the maximum value in this array is : " + max);
+        System.out.println("the minimum value in this array is : " + min);
+        
+        
+          
+       
+    }
+}
+
+                       ****   OUTPUT  ****
+                       
+                       run:
+                       
+take your number : 1 2 3 4 5
+the sum of all index you input : 15.0
+the average of all index you input : 3.0
+the maximum value in this array is : 5.0
+the minimum value in this array is : 1.0
+
+
+
+BUILD SUCCESSFUL (total time: 6 seconds)
+
+
