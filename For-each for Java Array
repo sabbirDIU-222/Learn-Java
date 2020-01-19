@@ -1,0 +1,15 @@
+public class ForEachForJavaArray
+ {
+    public static void main(String[] args) {
+        double sum = 0.0;
+        double[] number = {1.1,1.2, 3.3 ,3.4 , 4.0};
+       
+          for(double x : number)  //// this is for each 
+          {
+              sum = sum + x;
+          }
+          System.out.println(sum);
+       
+    }
+}
+
