@@ -1,0 +1,91 @@
+
+package hello;
+
+import java.util.Scanner;
+
+public class Array2D {
+    public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       
+       int sum = 0;
+       int upper= 0;
+       int lower=0;
+       
+       
+       int[][] A = new int[3][3];
+       
+       for(int row=0;row<3;row++)
+       {
+           for(int col=0;col<3;col++)
+           {
+               System.out.printf("A[%d][%d] = ",row,col);
+               A[row][col] = input.nextInt();
+               
+           }
+       }
+       
+       
+          for(int row=0;row<3;row++)
+       {
+           for(int col=0;col<3;col++)
+           {
+               System.out.print(" "+A[row][col]);
+               
+           }
+           System.out.println();
+       }
+       
+   
+       for(int row=0;row<3;row++)
+       {
+           for(int col=0;col<3;col++)
+           {
+               if(row==col)
+               {
+                   sum = sum + A[row][col];
+               }
+               if(row<col)
+               {
+                   upper = upper+A[row][col];
+                   
+               }
+               if(row>col)
+               {
+                   lower = lower+A[row][col];
+               }
+           }
+       }
+        System.out.println("sum of diagonal element is : " + sum);
+        System.out.println("sum of upper triangle element is : " + upper);
+        System.out.println("sum of upper triangle element is : " + lower);
+       
+     
+       
+    }
+ 
+}
+
+
+
+
+                    ** output **
+                    
+                    run:
+A[0][0] = 1
+A[0][1] = 2
+A[0][2] = 3
+A[1][0] = 4
+A[1][1] = 5
+A[1][2] = 6
+A[2][0] = 7
+A[2][1] = 8
+A[2][2] = 9
+ 1 2 3
+ 4 5 6
+ 7 8 9
+sum of diagonal element is : 15
+sum of upper triangle element is : 11
+sum of upper triangle element is : 19
+BUILD SUCCESSFUL (total time: 12 seconds)
+
+
