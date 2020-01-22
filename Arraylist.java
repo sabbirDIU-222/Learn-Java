@@ -68,16 +68,55 @@ public class Arraylist {
            System.out.print(variable.next()+" ");
        }
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+      
         
     }    
 }
+
+
+
+
+
+
+                   
+                               ** output **
+                            
+                                   
+                                   run:
+the size of array list is 0
+the sizee of array list is : 5
+[10, 20, 30, 40, 50]
+after adding two elements
+10 20 30 40 50 60 70 
+to get index number 4 which value is 50
+50
+
+so we remove the index number 4 which value is 50
+10 20 30 40 60 70 
+we set 2020 at index number 4 by set matheod
+10 20 30 40 2020 70 
+    
+    BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
