@@ -7,11 +7,14 @@ public class StringPart2 {
         
         String s1 = "sabbir is a good man , he is good , he love good people";
         System.out.println(s1);
+        // java string replace method 
         
-        String s2 = s1.replace("is", "was");
+        String s2 = s1.replace("is", "was"); / this will find is and then it replace was by is
         System.out.println("after_replace : " + s2);
         
-        String[] s3 = s1.split(" love ");
+        // java string split method
+        
+        String[] s3 = s1.split(" love "); //it return a char array thats why we use strnig char s3
         
         for(String v : s3)
         {
