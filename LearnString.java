@@ -94,3 +94,33 @@ public class LearnString {
      
     }
 }
+
+
+
+                 ** output **
+                 run:
+shimul ISLAM
+shimul islam
+lenght of ef  = 12
+equals
+false
+false
+Shimul islam Sabbir
+false
+i love my country
+o
+m is in index number : 7
+i tell you i love my country.
+i can store number 3.343240
+idex number 4 is v and it's ascii value is : 118
+last position of y is : 16
+myone  String have much space : hello Bangladesh
+hello Bangladesh
+
+
+
+
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+
