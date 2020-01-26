@@ -17,21 +17,41 @@ public class StringPart2 {
         {
             System.out.println(" " + v);
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+    
     }
     
 }
+
+
+    ** output **
+    
+        run:
+
+
+sabbir is a good man , he is good , he love good people
+after_replace : sabbir was a good man , he was good , he love good people
+ sabbir
+ is
+ a
+ good
+ man
+ ,
+ he
+ is
+ good
+ ,
+ he
+ love
+ good
+ people
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
