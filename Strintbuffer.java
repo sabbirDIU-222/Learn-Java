@@ -64,3 +64,33 @@ public class Strintbuffer {
     }
     
 }
+
+
+ output
+ 
+ 
+ run:
+capacity : 32
+md shimul islam sabbir 
+md shimul islam sabbir 22
+md shi
+mi
+im
+takr
+sas
+sas
+palindrome
+BUILD SUCCESSFUL (total time: 2 seconds)
+
+
+
+
+
+
+
+
+
+
+
+
+
