@@ -117,13 +117,13 @@ B[1][1] = 2
 B[1][2] = 1
     
 A = 	 1	 2	 3
-	     4	 5	 6
+	 4	 5	 6
 
 
 B = 	 6	 5	 4
-	     3	 2	 1
+	 3	 2	 1
 
  A+B = 	 7	 7	 7
-	     7	 7	 7
+	 7	 7	 7
 BUILD SUCCESSFUL (total time: 11 seconds)
 
