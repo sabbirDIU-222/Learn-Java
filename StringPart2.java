@@ -14,7 +14,7 @@ public class StringPart2 {
         
         // java string split method
         
-        String[] s3 = s1.split(" love "); //it return a char array thats why we use strnig char s3
+        String[] s3 = s1.split(" "); //it return a char array thats why we use strnig char s3
         
         for(String v : s3)
         {
