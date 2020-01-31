@@ -57,3 +57,18 @@ public class WrapperClass {
     }
     
 }
+
+
+                      **output **
+                      
+                          run:
+this is primitive : 30
+after converting 30
+converting primitvie to wrapper : 3.1416
+after converting into wrapper : 12.0
+unboxing : 12.0
+auto unboxing of obj object : 30
+    
+    
+BUILD SUCCESSFUL (total time: 0 seconds)
+
