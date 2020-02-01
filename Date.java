@@ -46,3 +46,16 @@ public class Date {
         
     }
 }
+                               ** output ** 
+                               
+                               
+                                   
+                                   
+                                   run:
+local date is now :  2020-02-01
+local time : 21:56:55.061
+after formatted : 01/02/2020 21:56:55
+    
+    
+BUILD SUCCESSFUL (total time: 0 seconds)
+
