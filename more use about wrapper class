@@ -1,0 +1,114 @@
+
+package string; 
+
+
+public class WrapperClass {
+    
+    public static void main(String[] args) {
+        
+       // string to primitive typ
+       // primitive to string type
+       
+        int i = 10;
+       
+        String x = Integer.toString(i);
+        System.out.println("x = " + x);
+        
+        
+        // if you want to convert it in binary string
+        
+        String y = Integer.toBinaryString(i);
+        System.out.println(" y = " + y);
+        
+        
+        // string -> primitive type
+        
+        
+        String xy = "121";
+       
+        int ij = Integer.parseInt(xy);
+        System.out.println("  ij = " + ij);
+        
+        
+        // alternating way
+        
+        int ji = Integer.valueOf(xy);
+        System.out.println("ji = "+ ji);
+        
+        
+        
+        // convertion 
+        // binary ; hexadeimal ; octal -> decimal 
+        
+        String binary = "1010";
+        
+        Integer decimal = Integer.parseInt(binary, 2);
+        System.out.println(" decimal value will be : " + decimal);
+        
+        
+        String octal = "674";
+        
+        Integer decmal = Integer.parseInt(octal, 8);
+        System.out.println("decimal value will be : " + decmal);
+        
+        
+        
+        String hexadecimal = "F";
+        
+        Integer dcimal = Integer.parseInt(hexadecimal, 16);
+        System.out.println("decimal convert : " + dcimal);
+        
+        
+        // decimal -> binary ; hexadecimal ; octal
+        
+        int vlaue = 30;
+        
+        String binary2 = Integer.toBinaryString(vlaue);
+        System.out.println("binary of value is : " + binary2);
+        
+        
+        String octal2 = Integer.toOctalString(vlaue);
+        System.out.println("octal value of 30 is : " + octal2);
+        
+        String hexa = Integer.toHexString(vlaue);
+        System.out.println("hexadecimal of 30 is : " + hexa);
+        
+        
+        
+        
+       
+    }
+    
+}
+
+
+
+
+              **output**
+              
+              
+              
+              run:
+x = 10
+ y = 1010
+  ij = 121
+ji = 121
+ decimal value will be : 10
+decimal value will be : 444
+decimal convert : 15
+binary of value is : 11110
+octal value of 30 is : 36
+hexadecimal of 30 is : 1e
+
+
+
+
+
+
+BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+
+
+
+
