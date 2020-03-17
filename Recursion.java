@@ -104,3 +104,28 @@ public class Recursion {
  
     
 }
+
+
+
+********out put************
+
+
+run:
+helllo world 1
+helllo world 2
+helllo world 3
+helllo world 4
+helllo world 5
+helllo world 6
+helllo world 7
+helllo world 8
+helllo world 9
+helllo world 10
+recursion of 5 is :  120
+fiibonacci 8
+  
+0 1  1  2  3  5  8  13  21BUILD SUCCESSFUL (total time: 0 seconds)
+
+
+
+
